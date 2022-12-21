@@ -1,0 +1,73 @@
+name: blog_application
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dotted_border: ^2.0.0+3
+  flutter_svg: ^1.1.6
+  smooth_page_indicator: ^1.0.0+2
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_gen_runner:
+
+
+
+
+flutter_gen:
+
+
+  # Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+    lottie: true
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+    - assets/img/icons/
+    - assets/img/posts/large/
+    - assets/img/posts/small/
+    - assets/img/stories/
+    - assets/img/background/
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/AvenirLTProBook.otf
+          weight: 200
+        - asset: assets/fonts/AvenirLTProRoman.otf
+          weight: 300
+        - asset: assets/fonts/AvenirLTProMedium.otf
+          weight: 400
+        - asset: assets/fonts/AvenirLTProHeavy.otf
+          weight: 700
+
+
+
+   
+   
