@@ -67,7 +67,7 @@ class CategoryItem extends StatelessWidget {
             left: 32,
             child: Text(
               category.title,
-              style: themeData.textTheme.headline6!.apply(color: Colors.white),
+              style: themeData.textTheme.titleLarge!.apply(color: Colors.white),
             ),
           ),
         ],

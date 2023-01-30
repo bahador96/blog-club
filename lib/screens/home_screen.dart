@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     Text(
                       'Hi, Jonathan!',
-                      style: themeData.textTheme.subtitle1,
+                      style: themeData.textTheme.titleMedium,
                     ),
                     Assets.img.icons.notification.image(width: 32, height: 32),
                   ],
@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(32, 0, 0, 16),
                 child: Text(
                   'Explore today’s',
-                  style: themeData.textTheme.headline4,
+                  style: themeData.textTheme.headlineMedium,
                 ),
               ),
             ),

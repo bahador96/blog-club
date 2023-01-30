@@ -19,7 +19,7 @@ class SimpleScreen extends StatelessWidget {
             children: [
               Text(
                 'Tab: $tabName, Screen #$screenNumber',
-                style: Theme.of(context).textTheme.headline4,
+                style: Theme.of(context).textTheme.headlineMedium,
               ),
               ElevatedButton(
                 onPressed: () {

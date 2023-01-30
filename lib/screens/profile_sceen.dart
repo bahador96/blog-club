@@ -87,7 +87,7 @@ class ProfileScreen extends StatelessWidget {
                                           'UX Designer',
                                           style: Theme.of(context)
                                               .textTheme
-                                              .bodyText1!
+                                              .bodyLarge!
                                               .apply(
                                                 color: themeData
                                                     .colorScheme.primary,
@@ -103,14 +103,14 @@ class ProfileScreen extends StatelessWidget {
                               padding: const EdgeInsets.fromLTRB(32, 0, 32, 0),
                               child: Text(
                                 'About me',
-                                style: themeData.textTheme.headline6,
+                                style: themeData.textTheme.titleLarge,
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.fromLTRB(32, 4, 32, 40),
                               child: Text(
                                 'Madison Blackstone is a director of user experience design, with experience managing global teams.',
-                                style: themeData.textTheme.bodyText1!.copyWith(
+                                style: themeData.textTheme.bodyLarge!.copyWith(
                                   fontWeight: FontWeight.w500,
                                 ),
                               ),
@@ -171,7 +171,7 @@ class ProfileScreen extends StatelessWidget {
                                       ),
                                       Text(
                                         'Post',
-                                        style: themeData.textTheme.bodyText1!
+                                        style: themeData.textTheme.bodyLarge!
                                             .copyWith(
                                           fontWeight: FontWeight.w200,
                                           color:
@@ -200,7 +200,7 @@ class ProfileScreen extends StatelessWidget {
                                     ),
                                     Text(
                                       'Following',
-                                      style: themeData.textTheme.bodyText1!
+                                      style: themeData.textTheme.bodyLarge!
                                           .copyWith(
                                         fontWeight: FontWeight.w200,
                                         color: themeData.colorScheme.onPrimary,
@@ -227,7 +227,7 @@ class ProfileScreen extends StatelessWidget {
                                     ),
                                     Text(
                                       'Folowers',
-                                      style: themeData.textTheme.bodyText1!
+                                      style: themeData.textTheme.bodyLarge!
                                           .copyWith(
                                         fontWeight: FontWeight.w200,
                                         color: themeData.colorScheme.onPrimary,
@@ -261,7 +261,7 @@ class ProfileScreen extends StatelessWidget {
                               Expanded(
                                 child: Text(
                                   'My Posts',
-                                  style: themeData.textTheme.headline6,
+                                  style: themeData.textTheme.titleLarge,
                                 ),
                               ),
                               IconButton(

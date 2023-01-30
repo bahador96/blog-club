@@ -23,7 +23,7 @@ class PostList extends StatelessWidget {
             children: [
               Text(
                 'Lasted News',
-                style: themeData.textTheme.headline5,
+                style: themeData.textTheme.headlineSmall,
               ),
               TextButton(
                 onPressed: () {},
@@ -106,7 +106,7 @@ class Post extends StatelessWidget {
                     const SizedBox(height: 8),
                     Text(
                       psot.title,
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                     const SizedBox(height: 16),
                     Row(
@@ -115,23 +115,23 @@ class Post extends StatelessWidget {
                         Icon(
                           CupertinoIcons.hand_thumbsup,
                           size: 16,
-                          color: Theme.of(context).textTheme.bodyText2!.color,
+                          color: Theme.of(context).textTheme.bodyMedium!.color,
                         ),
                         const SizedBox(width: 4),
                         Text(
                           psot.likes,
-                          style: Theme.of(context).textTheme.bodyText2!,
+                          style: Theme.of(context).textTheme.bodyMedium!,
                         ),
                         const SizedBox(width: 16),
                         Icon(
                           CupertinoIcons.clock,
                           size: 16,
-                          color: Theme.of(context).textTheme.bodyText2!.color,
+                          color: Theme.of(context).textTheme.bodyMedium!.color,
                         ),
                         const SizedBox(width: 4),
                         Text(
                           psot.time,
-                          style: Theme.of(context).textTheme.bodyText2!,
+                          style: Theme.of(context).textTheme.bodyMedium!,
                         ),
                         Expanded(
                           child: Container(
@@ -142,7 +142,7 @@ class Post extends StatelessWidget {
                                   : CupertinoIcons.bookmark,
                               size: 16,
                               color:
-                                  Theme.of(context).textTheme.bodyText2!.color,
+                                  Theme.of(context).textTheme.bodyMedium!.color,
                             ),
                           ),
                         ),

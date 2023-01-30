@@ -18,12 +18,12 @@ class Login extends StatelessWidget {
       children: [
         Text(
           'Welcome back',
-          style: themeData.textTheme.headline4,
+          style: themeData.textTheme.headlineMedium,
         ),
         const SizedBox(height: 8),
         Text(
           'Sign in with your account',
-          style: themeData.textTheme.subtitle1!.apply(fontSizeFactor: 0.9),
+          style: themeData.textTheme.titleMedium!.apply(fontSizeFactor: 0.9),
         ),
         const SizedBox(height: 16),
         const TextField(

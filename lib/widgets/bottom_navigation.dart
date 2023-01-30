@@ -143,10 +143,10 @@ class BottomNavigationItem extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               title,
-              style: themeData.textTheme.caption!.apply(
+              style: themeData.textTheme.bodySmall!.apply(
                 color: isActive
                     ? themeData.colorScheme.primary
-                    : themeData.textTheme.caption!.color,
+                    : themeData.textTheme.bodySmall!.color,
               ),
             ),
           ],

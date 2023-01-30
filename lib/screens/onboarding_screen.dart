@@ -79,12 +79,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                               children: [
                                 Text(
                                   items[index].title,
-                                  style: themeData.textTheme.headline4,
+                                  style: themeData.textTheme.headlineMedium,
                                 ),
                                 const SizedBox(height: 16),
                                 Text(
                                   items[index].description,
-                                  style: themeData.textTheme.subtitle1!
+                                  style: themeData.textTheme.titleMedium!
                                       .apply(fontSizeFactor: 0.9),
                                 ),
                               ],

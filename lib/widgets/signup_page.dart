@@ -17,12 +17,12 @@ class SignUp extends StatelessWidget {
       children: [
         Text(
           'Welcome to blog club',
-          style: themeData.textTheme.headline4,
+          style: themeData.textTheme.headlineMedium,
         ),
         const SizedBox(height: 8),
         Text(
           'Please enter your information',
-          style: themeData.textTheme.subtitle1!.apply(fontSizeFactor: 0.9),
+          style: themeData.textTheme.titleMedium!.apply(fontSizeFactor: 0.9),
         ),
         const SizedBox(height: 16),
         const TextField(
