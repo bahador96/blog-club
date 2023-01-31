@@ -36,7 +36,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
       child: Scaffold(
         backgroundColor: themeData.colorScheme.background,
         body: CustomScrollView(
-          physics: const BouncingScrollPhysics(),
           slivers: [
             SliverToBoxAdapter(
               child: Expanded(
