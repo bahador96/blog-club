@@ -1,5 +1,9 @@
 # blog_application
 
+In the bottomnavigationapp, I developed an environment inspired by Instagram with enhanced navigation and user controls which can give a better experience to the clients it is composed of the following components and pages: Home, Article, Profile, onboarding, Login & Sign up
+
+
+
 A new Flutter project.
 
 ## Getting Started
